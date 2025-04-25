@@ -1,0 +1,59 @@
+Step 2 Create a new Python script pandas_assignment.ipynb. Import Pandas and follow these steps:  
+
+
+1. Create a DataFrame with the following data:  
+  
+
+
+  data = {
+      'Name': ['Alice', 'Bob', 'Charlie', 'Diana', 'Eve'],
+      'Age': [24, 27, 22, 32, 29],
+      'Department': ['HR', 'Finance', 'IT', 'Marketing', 'HR'],
+      'Salary': [45000, 54000, 50000, 62000, 47000]
+  }
+  a. Print the first five rows of the DataFrame.  
+  b. Get the summary statistics of the 'Age' and 'Salary' columns.  
+  c. Calculate the average salary of employees in the 'HR' department.  
+
+
+2. Add a new column, 'Bonus', which is 10% of the salary.  
+
+
+3. Filter the DataFrame to show employees aged between 25 and 30.  
+
+
+4. Group the data by 'Department' and calculate the average salary for each department.  
+
+
+5. Sort the DataFrame by 'Salary' in ascending order and save the result to a new CSV file. 
+
+
+_______________________________________________________________________________________________________
+
+Objective - Develop a deeper understanding of matrices and vectors, including advanced operations, practical 
+linear algebra concepts, and their application in data science.
+
+
+Instructions - Install the numpy library (if not already installed) by running: pip install numpy
+
+
+1. Matrix and Vector Operations
+
+
+1. Create a 3 × 3 matrix A and a 3 × 1 vector B :
+
+
+   import numpy as np
+   A = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+   B = np.array([1, 2, 3])
+
+
+   Tasks -
+   - Perform matrix-vector multiplication  A X B.
+   - Calculate the trace of matrix  A  (sum of diagonal elements).
+   - Find the eigenvalues and eigenvectors of A.
+
+
+2. Replace the last row of matrix A with [10, 11, 12] and:
+   - Compute the determinant of the updated matrix A.
+   - Identify if the updated matrix is singular or non-singular.
